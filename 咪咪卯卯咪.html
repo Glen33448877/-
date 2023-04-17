@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+<meta charset="UTF-8">
+<title>咪咪卯卯咪</title>
+<meta name ="description" content="咪咪卯卯咪">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.container {
+            margin: 0 auto;
+			
+			
+		}
+
+.logo{
+		display: inline-block;
+	float: left;
+
+}
+.menu{
+	flex-basis: 50%;
+	
+	float: right;
+}
+
+
+nav {
+	background-color: white;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	}
+
+nav ul li {
+	display:inline-block;
+	background-color: white;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:black;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+	}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 100%; 
+}
+
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+nav ul ul li {
+	width: 200px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	left:200px;
+}
+
+li > a:after { content:  ' ▼'; }
+li > a:only-child:after { content: ''; }
+
+@media screen and (max-width : 40px){
+.logo{
+	width:10%;
+	display: block;
+	text-align:center;
+	
+}
+
+
+.menu{
+	float:right;
+	display: block;
+	
+}
+
+
+
+nav {
+	background-color: white;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	}
+
+nav ul li {
+	display:inline-block;
+	background-color: white;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:black;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+	}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 100%; 
+
+
+}
+
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+nav ul ul li {
+	width: 100%;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	left:200px;
+}
+
+li > a:after { content:  ' ▼'; }
+li > a:only-child:after { content: ''; }
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+<div class="container">
+<div class="logo">
+	<img src="	https://Glen33448877.github.io/image/咪咪卯卯咪咪咪.png" alt="咪咪咪咪咪咪.png">
+</div>
+<div class="menu">
+	<nav>
+		<ul>
+			<li><a href="#">選單</a></li>
+			<li><a href="#">關於我的貓</a>
+                 <ul>
+					<li><a href="#">貓咪大雞腿</a></li>
+					<li><a href="#">貓咪hub</a></li>
+					<li><a href="#">貓咪vedio</a></li>
+				</ul>
+
+			</li>
+			<li><a href="#">卯咪的由來</a>
+				<ul>
+					<li><a href="#">一隻幼犬</a></li>
+					<li><a href="#">大狗勾</a></li>
+					<li><a href="#">名字演化史</a></li>
+				</ul>
+			</li>
+			<li><a href="#">sponsor my cat</a></li>
+		</ul>
+	</nav>
+</div>
+</div>
+</body>
+</html>
+
